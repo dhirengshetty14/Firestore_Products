@@ -3,16 +3,17 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
-    namespace = "com.projs.templatesetup"
+    namespace = "com.projs.productsfirestore"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.projs.templatesetup"
+        applicationId = "com.projs.productsfirestore"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -46,6 +47,7 @@ dependencies {
 
     // ---- Compose (BOM manages all compose-* versions) ----
     implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.firebase.firestore)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     implementation(libs.bundles.compose)
     debugImplementation(libs.androidx.compose.ui.tooling)
@@ -89,4 +91,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
+    implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
 }

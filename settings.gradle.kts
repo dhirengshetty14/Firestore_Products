@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Template Setup"
+rootProject.name = "Products Firestore"
 include(":app")
  

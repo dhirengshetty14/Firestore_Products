@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252076352395",
+    "project_id": "productsfirestore-903be",
+    "storage_bucket": "productsfirestore-903be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252076352395:android:c2812e6ebf1545be68058e",
+        "android_client_info": {
+          "package_name": "com.projs.productsfirestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfJCU4eW6E5bkYhBiz0a77tIB2YvzMr7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

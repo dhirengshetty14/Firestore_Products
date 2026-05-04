@@ -1,4 +1,4 @@
-package com.projs.templatesetup
+package com.projs.productsfirestore
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
